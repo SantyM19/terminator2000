@@ -31,6 +31,22 @@ li{
     text-decoration: none;
 }
 
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inf, .img{
+    width: 40%;
+    background-color: steelblue;
+}
+
+img{
+    width: 100%;
+}
+
 /*celulares*/
 
 @media only screen and (max-width: 600px) {
@@ -38,7 +54,7 @@ li{
       background-color: lightblue;
     }
 
-    header, ul{
+    header, ul, .content{
         flex-direction: column;
     }
 
