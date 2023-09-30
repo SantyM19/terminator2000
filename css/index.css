@@ -30,3 +30,19 @@ nav{
 li{
     text-decoration: none;
 }
+
+/*celulares*/
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+    header, ul{
+        flex-direction: column;
+    }
+
+
+
+  }
+
