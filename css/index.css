@@ -5,3 +5,28 @@ h1{
     border-style: dashed;
     text-align: center;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.slogan{
+    width: 30%;
+    background-color: powderblue;
+}
+
+nav{
+    width: 60%;
+    background-color: seagreen;
+}
+
+li{
+    text-decoration: none;
+}
